@@ -1,0 +1,9 @@
+-- Supabase Storage is intentionally not used for property media.
+-- Property images and optional MP4 videos are uploaded server-side to Bunny
+-- Storage/CDN, and only final public CDN URLs are saved in public.properties.
+--
+-- Required Bunny env vars live in .env.local / deployment settings:
+-- BUNNY_STORAGE_ZONE
+-- BUNNY_STORAGE_ACCESS_KEY
+-- BUNNY_STORAGE_REGION_HOST
+-- BUNNY_CDN_PUBLIC_URL
